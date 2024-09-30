@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Login Success</title>
+</head>
+<body>
+    <h1>Welcome, <%= user.displayName || 'User' %>!</h1>
+    <p>Your email: <%= user.email || 'Email not available.' %></p>
+    <p><a href="/auth/google/signout">Sign out</a></p>
+</body>
+
+</html>

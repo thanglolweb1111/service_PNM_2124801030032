@@ -1,0 +1,13 @@
+    {
+        "cli": {
+        "version": ">= 0.46.0"
+        },
+        "build": {
+        "android": {
+            "release": {
+            "buildType": "apk" 
+            }
+        }
+        }
+    }
+    
